@@ -1,0 +1,43 @@
+<%= javascript_pack_tag 'main' %>
+
+<%# headerレンダー %>
+<%= render partial: "/shared/header"%>
+<%= render partial: "/shared/side_sns"%>
+
+<div class="home">
+  <div class="home-main">
+    <img  src="/images/Type-Aけいはんな観光ロゴカラー.png" class="mainLogo"/>
+    
+  </div>
+
+  <div class="slogan">
+  </div>
+
+
+  <div class="message">
+
+    <div class="title">
+      <div class="title-cover">
+        <p>Message</p>	
+      </div>
+    </div>
+
+  </div>
+
+  <div class="sns-conect">
+
+    <div class="title">
+      <div class="title-cover">
+        <p>SNS</p>
+      </div>
+    </div>
+
+    <div class="twitter">
+      <a class="twitter-timeline" href="https://twitter.com/asvpxrocky?ref_src=twsrc%5Etfw" width="300px" height="400px">Tweets by asvpxrocky</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+
+</div>
+
+<%= render partial: "/shared/footer"%>

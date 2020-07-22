@@ -1,0 +1,112 @@
+$skyBlue: rgb(62, 135, 208);
+
+@media screen and (min-width:640px){
+
+  footer{
+    width: 100vw;
+    box-shadow: 0 0 20px white;
+    background-image: url("https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1545&q=80"); // 質感が出てあり
+    background-size: cover;
+    z-index: 1;
+    
+    .footer-top{
+      background-color: rgba(40, 127, 210, .9);
+      padding: 30px 13% 0;
+      height: 160px;
+      display: flex;
+      flex-direction: row;
+      
+      .footer-company-info{
+        width: 25%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        padding: 0;
+        margin-left: 5%;
+          
+        li{
+          height: 45px;
+          width: 45px;
+          font-size: 14px;
+          border-radius: 100px;
+          color: white;
+          border: solid 1px white;
+          text-align: center;
+          line-height: 45px;
+          margin-right: 4%;
+          font-family: 'Sawarabi Mincho', sans-serif;
+          transition: box-shadow .5s;
+          font-family: 'Fjalla One', sans-serif;
+          
+          a{
+            color: white;
+            text-decoration: none;
+            
+            .fa-phone{
+              transform: rotate(105deg);
+            }
+          }
+          &:hover{
+            box-shadow: 0px 0px 10px 0px rgba(250, 250, 250, .5);
+          }
+        }
+      }
+    
+
+      .footer-logo{
+        width: 45%;
+        font-size: 66px;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+      }
+
+      .footer-contact{
+        width: 30%;
+        font-size: 14px;
+        font-family: 'Sawarabi Mincho', sans-serif;
+        color: white;
+        font-family: 'Noto Serif JP', serif;
+
+        p{
+          margin-bottom: 5px;
+        }
+
+        .contact-link{
+          padding: 15px 15%;
+          text-align: center;
+          line-height: 70px;
+          background-color: rgba(0, 0, 0, .5);
+          color: white;
+          text-decoration: none;
+          transition: box-shadow 1s;
+          
+          &:hover{
+            box-shadow: 0px 0px 10px 0px rgba(250, 250, 250, .5);
+          }
+        }
+      }
+    }
+
+
+    .footer-bottom{
+      height: 170px;
+      width: 100vw;
+      background-color: white;
+      text-align: center;
+      box-shadow: 0px 2px 6px inset;
+
+      .company-infomartion{
+        padding: 20px 0 0;
+        font-size: 11px;
+        font-family: 'Noto Serif JP', serif;
+
+          .footer-name{
+            font-size: 13px;
+            margin-bottom:8px;
+          }
+      }
+    }
+  }
+}

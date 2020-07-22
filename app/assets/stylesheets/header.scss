@@ -1,0 +1,99 @@
+$skyBlue: rgb(62, 135, 208);
+
+
+@media screen and (min-width:640px){
+
+  header{
+    position: fixed;
+    width: 100vw;
+
+    .top-info{
+      display: flex;
+      flex-direction: row;
+      height: 18px;
+      padding-left: 60%;
+      margin-bottom: 7px;
+      background-color: $skyBlue;
+      font-family: 'Noto Serif JP', serif;
+
+      .company-name{
+        margin: 0;
+        font-size: 12px;
+        font-weight: 100;
+        color: white;
+      }
+      .company-tel{
+        margin: 0;
+        padding-left: 12px;
+        font-size: 12px;
+        list-style: none;
+
+        a{
+          color: white;
+          text-decoration: none;
+
+
+          .fa-phone{
+            transform: rotate(105deg);
+            font-size: 10px;
+            border-radius: 100px;
+            color: $skyBlue;
+            background-color: white;
+            border: solid 2px white;
+          }
+        }
+      }
+    }
+
+    .header-object{
+      height: 70px;
+      width: 900px;
+      margin: auto;
+      font-weight: bold;
+      color: $skyBlue;
+      background: rgba(255, 255, 255, .97);
+      border: solid 2px $skyBlue;
+      border-radius: 4px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
+
+      nav{
+        ul{
+          display: flex;
+          flex-direction: row;
+          padding: 0px;
+          margin-top: 10px;
+          li{
+            padding-left: 38px;
+            list-style: none;
+            img{
+              width: 180px;
+              border-radius: 10px;
+              padding-right: 230px
+            }
+            a{
+              font-size: 14px;
+              color: $skyBlue;
+              text-decoration: none;
+              font-family: 'M PLUS 1p', sans-serif;
+              
+              .navBorder:after{
+                position: absolute;
+                content: " ";
+                display: block;
+                border-bottom: solid 2px $skyBlue;
+                animation: navBorder 1s forwards;
+              }
+              .navBorderLeave:after{
+                position: absolute;
+                content: " ";
+                display: block;
+                border-bottom: solid 2px $skyBlue;
+                animation: navBorderLeave 1s forwards;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

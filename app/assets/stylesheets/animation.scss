@@ -1,0 +1,18 @@
+$skyBlue: #6091d3;
+// -----------------------------------------
+// -----------------------------------------
+@keyframes navBorder{
+  from{
+    width: 0%;
+  }to{
+    width: 35px;
+  }
+}
+@keyframes navBorderLeave{
+  from{
+    width: 35px;
+  }to{
+    width: 0%;
+  }
+}
+
