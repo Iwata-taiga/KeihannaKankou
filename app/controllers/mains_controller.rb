@@ -6,7 +6,7 @@ class MainsController < ApplicationController
   def company
   end
 
-  def recrit
+  def contact
   end
 
 end

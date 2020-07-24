@@ -1,6 +1,6 @@
 $skyBlue: rgb(62, 135, 208);
 
-@media screen and (min-width:640px){
+@media screen and (min-width:830px){
 
   footer{
     width: 100vw;
@@ -35,7 +35,6 @@ $skyBlue: rgb(62, 135, 208);
           text-align: center;
           line-height: 45px;
           margin-right: 4%;
-          font-family: 'Sawarabi Mincho', sans-serif;
           transition: box-shadow .5s;
           font-family: 'Fjalla One', sans-serif;
           
@@ -65,7 +64,6 @@ $skyBlue: rgb(62, 135, 208);
       .footer-contact{
         width: 30%;
         font-size: 14px;
-        font-family: 'Sawarabi Mincho', sans-serif;
         color: white;
         font-family: 'Noto Serif JP', serif;
 
