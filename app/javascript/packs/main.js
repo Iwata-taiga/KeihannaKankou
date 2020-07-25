@@ -20,4 +20,39 @@ $(function(){
     // var sub = a.find(".nav-sub-text")
     // sub.addClass("offText")
   })
+
+  var blockNum = 0
+
+  $(".menu-btn").click(function(){
+    
+    blockNum++
+    
+    if ((blockNum % 2 ) != 0 ){
+      $(".header-nav").addClass("mobile-nav")
+      var aTag = $(".nav-text").parent()
+      var liTag = $(aTag).parent()
+
+      $(liTag).each(function(i, li) {
+        $(li).css("animation", `delayNav ${(i * 2) / 3.5 }s forwards`)
+      })
+
+      $(".block").each(function(i, block) {
+        if ((i % 2) != 0 ){
+          $(block).removeClass("opacityOn")
+          $(block).addClass("opacity")}
+      })
+
+    }else{
+      $(".header-nav").removeClass("mobile-nav")
+      
+      $(".block").each(function(i, block) {
+        if ((i % 2) != 0 ){
+          $(block).removeClass("opacity")
+          $(block).addClass("opacityOn")}
+      })
+    }
+  })
+
+  // $(".side-link").addClass("Menu")
+  // $("header").addClass("Menu")
 })
