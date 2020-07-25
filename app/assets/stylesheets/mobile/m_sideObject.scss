@@ -1,0 +1,37 @@
+@media screen and (max-width:829px){
+  .side-sns{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 5%;
+    right: 3%;
+    
+    .side-object{
+      list-style: none;
+        
+      li{
+        height: 50px;
+        width: 50px;
+        font-size: 16px;
+        border-radius: 100px;
+        background-color: lightgray;
+        text-align: center;
+        line-height: 50px;
+        transition: box-shadow .5s;
+        margin-bottom: 12px;
+        
+        a{
+          color: white;
+          text-decoration: none;
+          
+          .fa-phone{
+            transform: rotate(105deg);
+          }
+        }
+        &:hover{
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+        }
+      }
+    }
+  }
+}

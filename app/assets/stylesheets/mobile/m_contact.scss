@@ -1,0 +1,44 @@
+$skublue: rgb(62, 135, 208);
+
+@media screen and (max-width:639px){
+  .contact-page{
+    padding: 50px 7%;
+    background-color: white;
+
+    .info-introduce{
+
+      .info-h{
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid $skublue;
+
+        .info-h1{
+          font-size: 40px;
+          margin-bottom: 5px;
+        }
+        .info-h2{
+          font-size: 15px;
+          font-weight: bold;
+          margin: 48px 0px 0px 25px;
+        }
+      }
+      p{
+        font-size: 14px;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .contact-view{
+    height: 200px;
+    padding: 15px;
+    font-size: 15px;
+    background-color: transparent;
+      background-image: repeating-linear-gradient(45deg, rgba(200, 200, 200, 0.1), rgba(200, 200, 200, .3) 3px, transparent 0, transparent 6px);
+
+    .contact-p{
+      padding: 30px 0px 0px 20px;
+      border-bottom: 1px solid gray;
+    }
+  }
+}

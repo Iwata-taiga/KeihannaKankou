@@ -1,0 +1,44 @@
+@media screen and (max-width:829px){
+  .company{
+
+    .company-main{
+      height: 80vh;
+      width: 80%;
+      margin: auto;
+      background-color: transparent;
+      background-image: repeating-linear-gradient(45deg, rgba(200, 200, 200, 0.1), rgba(200, 200, 200, .3) 3px, transparent 0, transparent 6px);
+    }
+
+    .message{
+      height: 40vh;
+      width: 80%;
+      margin: auto;
+      background-color: transparent;
+      background-image: repeating-linear-gradient(45deg, rgba(200, 200, 200, 0.1), rgba(200, 200, 200, .3) 3px, transparent 0, transparent 6px);
+
+
+      .title {
+        background-image: url("https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
+        background-size: cover;
+        background-position: 0 44%; 
+        height: 65px;
+        width: 100vw;
+        margin-left: -12.4%;
+    
+        .title-cover{
+          background-color: rgba(40, 127, 210, 0.7);
+          height: 100%;
+        }
+        p{
+          font-size: 33px;
+          line-height: 65px;
+          margin: 0;
+          font-weight: bold;
+          color: white;
+          text-align: center;
+          font-family: 'Fjalla One', sans-serif;
+          }
+      }
+    }
+  }
+}
