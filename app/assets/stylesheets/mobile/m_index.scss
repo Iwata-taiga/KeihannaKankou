@@ -38,6 +38,20 @@ html, body{
 // font-family: 'Squada One', cursive;
 
 @media screen and (max-width:829px){
+  .breadcrumbs{
+    position: fixed;
+    top: 23px;
+    font-size: 12px;
+    padding-left: 1%;
+    font-weight: bold;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: gray;
+      a{
+        color: gray; 
+        text-decoration: none;
+      }
+  }
+
   .home{
     
     .home-main{
