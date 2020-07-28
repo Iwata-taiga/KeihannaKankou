@@ -9,13 +9,11 @@ html, body{
     background-image: $imgUrl;
     background-size: cover;
     background-position: $position;  
-    height: 65px;
     width: 100vw;
     margin-left: -12.4%;
 
     .title-cover{
       background-color: $background;
-      height: 100%;
     }
     p{
       font-size: 33px;
@@ -103,7 +101,7 @@ html, body{
           h1{
             width: 119%;
             font-size: 27px;
-            -webkit-text-stroke: .4px gray;
+            -webkit-text-stroke: .5px gray;
             color: white;
             margin: 0 0 0 -30px;
             font-family: 'M PLUS 1p', sans-serif;
@@ -155,27 +153,15 @@ html, body{
       
     }
 
-    .message{
-      height: 60vh;
-      width: 80%;
-      margin: auto;
-      background-color: transparent;
-      background-image: repeating-linear-gradient(45deg, rgba(200, 200, 200, 0.1), rgba(200, 200, 200, .3) 3px, transparent 0, transparent 6px);
-
-
-      @include title(url("https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"), 0 44%, rgba(40, 127, 210, 0.8))
-    }
-
     .sns-conect{
       width: 80%;
       margin: auto;
-      background-color: transparent;
       background-image: repeating-linear-gradient(45deg, rgba(200, 200, 200, 0.1), rgba(200, 200, 200, .3) 3px, transparent 0, transparent 6px);
 
       @include title(url("https://images.unsplash.com/photo-1572175428143-3a40195b0c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"), 0 90%, rgba(40, 127, 220, 0.8));
 
       .twitter{
-        margin: 40px 20px;
+        padding: 40px 20px;
       }
     }
   }
