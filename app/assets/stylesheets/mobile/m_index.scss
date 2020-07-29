@@ -99,15 +99,16 @@ html, body{
         .slogan-text{
           font-weight: bold;
           h1{
-            width: 119%;
+            width: 120%;
             font-size: 27px;
-            -webkit-text-stroke: .5px gray;
-            color: white;
+            -webkit-text-stroke: .5px $skyBlue;
+            color: $skyBlue;
             margin: 0 0 0 -30px;
             font-family: 'M PLUS 1p', sans-serif;
             text-align: center;
 
             .mobile-br{
+              display: inline-block;
             }
             .mobile-br::before{
               content: "”";
