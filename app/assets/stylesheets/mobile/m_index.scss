@@ -109,6 +109,7 @@ html, body{
 
             .mobile-br{
               display: inline-block;
+              white-space: pre;
             }
             .mobile-br::before{
               content: "”";
@@ -121,11 +122,11 @@ html, body{
               font-size: 55px;
               margin-left: -5px;
             }
-            .mobile-br2{
-              display: inline-block;
-            }
           }
-
+          
+          #mobile-br2{
+            white-space: pre;
+          }
 
           .example{
             color: #333333;
@@ -147,6 +148,7 @@ html, body{
               font-size: 20px;
               color: $skyBlue;
               -webkit-text-stroke: .2px $skyBlue;
+              white-space: pre;
             }
           }
         }
